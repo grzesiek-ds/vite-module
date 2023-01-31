@@ -20,7 +20,8 @@ export default defineConfig({
       filename: 'remoteEntry.js',
       exposes: {
         './testValue': './src/testValue',
-        './TestComponent': './src/TestComponent',
+        './WithoutState': './src/WithoutState',
+        './WithState': './src/WithState',
       },
       shared: {
         react: {
