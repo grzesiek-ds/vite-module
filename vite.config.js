@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react';
 import { dependencies } from './package.json';
 
 export default defineConfig({
+  build: {
+    target: 'esnext'
+  },
   preview: {
     host: 'localhost',
     port: 3008,
